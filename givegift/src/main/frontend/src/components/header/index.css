@@ -1,0 +1,66 @@
+.header {
+    padding: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background: #464646;
+    color: white;
+    font-size: 15px;
+}
+
+.header>.left {
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    font-size: 15px;
+}
+
+.header>.left>h1 {
+    margin-right: 20px;
+}
+
+.header>.left>a {
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    outline: none;
+    text-decoration: none;
+    color: white;
+    font-size: 30px;
+}
+
+.header>.left>a:visited {
+    color: white;
+}
+
+
+.header>.mid>a {
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    outline: none;
+    text-decoration: none;
+    color: white;
+    font-size: 30px;
+}
+
+.header>.mid>a:visited {
+    color: white;
+}
+
+
+.header>.right>button {
+    border: 0px;
+    background-color: #e6e6e6;
+    border-radius: 10px;
+    transition: background-color 0.5s;
+    transition: border 0.5s;
+    transition: color 0.5s;
+    padding: 1px;
+}
+
+.header>.right>button:hover {
+    border: 3px solid brown;
+    background-color: brown;
+    color: white;
+}

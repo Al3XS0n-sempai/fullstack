@@ -1,0 +1,27 @@
+.placementView{
+    display: flex;
+    flex-direction: column;
+    width: 1920px;
+    justify-content: center;
+}
+
+.placementView>h1, .placementView>h2, .placementView>.donation {
+    margin-left: 600px;
+}
+
+.placementView>.donation>button {
+    border: 0px;
+    background-color: #e6e6e6;
+    border-radius: 10px;
+    transition: background-color 0.5s;
+    transition: border 0.5s;
+    transition: color 0.5s;
+    padding: 1px;
+}
+
+
+.placementView>.donation>button:hover {
+    border: 3px solid brown;
+    background-color: brown;
+    color: white;
+}

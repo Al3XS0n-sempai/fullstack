@@ -1,0 +1,119 @@
+.dashboard {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100%;
+    /* background-color: black; */
+    height: 450px;
+}
+
+.myPlacements {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.placement {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border:3px solid brown;
+    border-radius: 10px;
+    height: 20px;
+    margin: 3px;
+    padding: 4px;
+}
+.placement>button {
+    border: 0px;
+    background-color: #e6e6e6;
+    border-radius: 10px;
+    transition: background-color 0.5s;
+    transition: border 0.5s;
+    transition: color 0.5s;
+    padding: 1px;
+}
+
+.placement>button:hover {
+    border: 3px solid brown;
+    background-color: brown;
+    color: white;
+}
+
+.placement>a {
+    outline: none;
+    text-decoration: none;
+    padding: 2px;
+    border-radius: 10px;
+}
+
+.placement>a:link {
+    color: black;
+}
+
+.placement>a:visited {
+    color: black;
+}
+
+.placement>a:focus {
+    /* border-bottom: 1px solid; */
+    background: #e6e6e6;
+}
+
+.placement>a:hover {
+    /* border-bottom: 1px solid; */
+    background: #d1d1d1;
+}
+
+.placement>a:active {
+    background: #265301;
+    color: #CDFEAA;
+}
+
+.newPlacement {
+    margin-top: 30px;
+    /* background-color: red; */
+    display: flex;
+    flex-direction: column;
+    height: 70%;
+    width: 300px;
+    justify-content: space-between;
+}
+
+.newPlacement>label {
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.newPlacement>input {
+    height: 20px;
+    border-width: 3px;
+    border-radius: 5px;
+    border-color: brown;
+}
+
+.newPlacement>textarea {
+    height: 100px;
+    border-width: 3px;
+    border-radius: 5px;
+    border-color: brown;
+}
+
+.buttonWrapper {
+    display: flex;
+    width: 300px;
+    justify-content: center;
+}
+
+.buttonWrapper>button {
+    color: white;
+    height: 50px;
+    width: 200px;
+    border-width: 0px;
+    border-radius: 50px;
+    background-color: brown;
+    transition: background-color 0.5s;
+}
+
+.buttonWrapper>button:hover {
+    background-color: #531515;
+}

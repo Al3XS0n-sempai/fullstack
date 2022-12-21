@@ -1,0 +1,28 @@
+.grid {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-left: 600px;
+    margin-top: 50px;
+}
+
+.gridItem {
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.grid>.gridItem>button {
+    border: 0px;
+    background-color: #e6e6e6;
+    border-radius: 10px;
+    transition: background-color 0.5s;
+    transition: border 0.5s;
+    transition: color 0.5s;
+    padding: 1px;
+}
+
+.grid>.gridItem>button:hover {
+    border: 3px solid brown;
+    background-color: brown;
+    color: white;
+}
